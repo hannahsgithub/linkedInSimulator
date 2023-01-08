@@ -1,4 +1,4 @@
 # linkedInSimulator
 my first html project: i recreated the profile page and some functions of linkedin 
 
-Click LinkedIn HTML file to view :>
+run the code and click LinkedIn html file to view :>
