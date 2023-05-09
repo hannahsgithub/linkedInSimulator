@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(15, 17, 58);
+}
+
+.container{
+  border: 2px solid gray;
+  background-color: #f2f2f2;
+  border-bottom: 1px;
+  border-right: 1px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: fit-content;
+  padding: 2rem 5rem 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.close{
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+}
+
+.contactName{
+  font-weight: normal;
+  color: rgb(68, 67, 67);
+  font-size: 1.5rem;
+}
+
+.contactTitle{
+  font-weight: normal;
+  color: rgb(68, 67, 67);
+  margin-top: 35px;
+  font-size: 1.5rem;
+}
+
+.links{
+  text-decoration: none;
+  color: rgb(27, 118, 238)
+}
+
+.phone{
+  color: rgb(62, 61, 61)
+}
+
+.mobile{
+  color: rgb(117, 111, 111)
+}
+
+.cake{
+  color: rgb(62, 61, 61)
+}
+
+h2 {
+  margin-left: 45px;
+  margin-top: -20px;
+  font-size: 17.5px;
+  color: rgb(46, 46, 46);
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  float: left;
+}
+
+p {
+  margin-left: 45px;
+  font-size: 15px;
+  margin-top: -7px;
+  margin-bottom: 18px;
+}
