@@ -1,3 +1,3 @@
 # linkedInSimulator
-my first html/css project: i recreated the profile page and some functions of linkedin.
+My first html/css project: I recreated the profile page and some functions of linkedin.
 Compiled with LiveServer.
