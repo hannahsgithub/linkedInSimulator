@@ -25,29 +25,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.typewriterEffect h1 {
-  overflow: hidden;
-  border-right: 0.15rem solid rgb(247, 132, 25);
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.15rem;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-
 .typewriterEffect {
   background-color: rgb(15, 17, 58);
   padding: 20px;
+  height: 80px;
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
+.typewriterEffect h1 {
+  position: absolute;
+  white-space: nowrap;
+  animation: moveBanner 10s linear infinite;
+}
+
+@keyframes moveBanner {
+  0% {
+    left: 100%;
   }
-  to {
-    width: 100%;
+  100% {
+    left: -100%;
   }
 }
 
